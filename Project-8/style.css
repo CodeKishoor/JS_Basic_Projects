@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    margin: 50px;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: #d0aba0;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.box{
+    padding: 20px;
+}
+
+#num{
+    background-color: #EDCF8E;
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    outline: none;
+    text-align: center;
+}
+
+#btn{
+    padding: 10px 20px;
+    background-color: #2B8F4E;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #12D958;
+    cursor: pointer;
+}
+
+.result{
+    background-color: #ba7ba1;
+    width: 95%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.whole{
+    background-color: #BABA7B;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fraction{
+    background-color: #94B1B7;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
