@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         }else{
             result.innerHTML = value + "th";
         }
+        num.value = "";
     })
 
 })
