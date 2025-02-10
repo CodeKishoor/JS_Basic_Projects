@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #0882AF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    background-color: #d5d498;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input{
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 2px;
+    display: inline-block;
+}
+
+#btn{
+    background-color: #E5E250;
+    border: none;
+    padding: 2px;
+} 
+
+h1{
+    position: absolute;
+    top: 15%;
+}
